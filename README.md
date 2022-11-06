@@ -1,7 +1,7 @@
 # Django-PyOTP
 
 - Using Django REST API Framework Token Authentication.
-- Using Time-based one-time password (TOTP)
+- Using Time-based one-time password (TOTP) with PyOTP library.
 
 
 [+] Run Project:
