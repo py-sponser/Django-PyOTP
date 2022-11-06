@@ -12,10 +12,10 @@
 
 [+] Ready Implementations:
 - Admin account is already registered.
-username: omar
-email: omar@omar.com
-password: omar
-auth_token: 6dfe417849ad42b39b0b530f066903ec34b5eda7
+  - Username: omar
+  - Email: omar@omar.com
+  - Password: omar
+  - auth_token: 6dfe417849ad42b39b0b530f066903ec34b5eda7
 
 - Admin account already has MFA enabled and MFA record.
 
