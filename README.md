@@ -20,8 +20,8 @@ auth_token: 6dfe417849ad42b39b0b530f066903ec34b5eda7
 - Admin account already has MFA enabled and MFA record.
 
 - Using React.js as front-end.
-> Frontend only requests provision url from backend to embed with QRCode which Google Authenticator need to scan.
-> Frontend shows only the QRCode.
++ Frontend only requests provision url from backend to embed with QRCode which Google Authenticator need to scan.
++ Frontend shows only the QRCode.
 
 - You can read MFA views, urls, and models code in mfa_otp directory (app).
 
@@ -29,5 +29,5 @@ auth_token: 6dfe417849ad42b39b0b530f066903ec34b5eda7
 - Scanning QRCode using Google Authenticator.
 - Send POST request to VerifyOTP view "http://127.0.0.1:8000/mfa/verify-otp/"
 using Postman or curl with:
-> headers> {"Content-Type": "application/json", "Authorization": Token auth_token}
-> json body> {"otp": "Google Authenticator otp"}
++ headers> {"Content-Type": "application/json", "Authorization": Token auth_token}
++ json body> {"otp": "Google Authenticator otp"}
