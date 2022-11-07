@@ -6,12 +6,16 @@
 - Linkedin Uploaded post about the project:
   - https://www.linkedin.com/feed/update/urn:li:activity:6995195746190798848/
 
+--------------
+
 [+] Run Project:
 - Change your current directory to the project. (cd djangoPyOTP)
 - python -m venv env
 - source env/bin/activate (Linux) or env/bin/activate (Windows)
 - pip install -r requirements.txt
 - python manage.py runserver 127.0.0.1:8000
+
+-----------------
 
 [+] Ready Implementations:
 - Admin account is already registered.
@@ -30,6 +34,8 @@
 
 - You can read MFA views, urls, and models code in mfa_otp directory (app).
   - Also, check project urls.py (djangoPyOTP/urls.py)
+
+-----------
 
 [+] Try out:
 - Scanning QRCode using Google Authenticator.
