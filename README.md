@@ -4,7 +4,7 @@
 - Using Time-based one-time password (TOTP) with PyOTP library.
   - https://github.com/pyauth/pyotp
 - Linkedin Uploaded post about the project:
-  - https://www.linkedin.com/feed/update/urn:li:activity:6995195746190798848/
+  - https://www.linkedin.com/posts/omar-elsayed-727b0b238_python-django-djangodeveloper-activity-6995202294078164992-KkO-/
 
 --------------
 
