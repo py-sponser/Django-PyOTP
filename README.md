@@ -25,6 +25,7 @@
   - Frontend shows only the QRCode.
 
 - You can read MFA views, urls, and models code in mfa_otp directory (app).
+  - Also, check project urls.py (djangoPyOTP/urls.py)
 
 [+] Try out:
 - Scanning QRCode using Google Authenticator.
@@ -32,3 +33,4 @@
 using Postman or curl with:
   - headers> {"Content-Type": "application/json", "Authorization": Token auth_token}
   - json body> {"otp": "Google Authenticator otp"}
+
