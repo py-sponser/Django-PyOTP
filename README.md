@@ -3,13 +3,15 @@
 - Using Django REST API Framework Token Authentication.
 - Using Time-based one-time password (TOTP) with PyOTP library.
   - https://github.com/pyauth/pyotp
-
+- Linkedin Uploaded post about the project:
+  - https://www.linkedin.com/feed/update/urn:li:activity:6995195746190798848/
 
 [+] Run Project:
-- python3 -m venv env
+- Change your current directory to the project. (cd djangoPyOTP)
+- python -m venv env
 - source env/bin/activate (Linux) or env/bin/activate (Windows)
 - pip install -r requirements.txt
-- python3 manage.py runserver 127.0.0.1:8000
+- python manage.py runserver 127.0.0.1:8000
 
 [+] Ready Implementations:
 - Admin account is already registered.
