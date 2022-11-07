@@ -3,7 +3,7 @@ from urllib.parse import quote, urlencode
 
 def build_uri(secret, name, issuer):
     """
-    Returns the provisioning URI for the OTP; works for either TOTP.
+    Returns the provisioning URI for the OTP; works for TOTP.
 
     This can then be encoded in a QR Code and used to provision the Google
     Authenticator app.
