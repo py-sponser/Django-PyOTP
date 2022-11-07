@@ -36,3 +36,6 @@ using Postman or curl with:
   - headers> {"Content-Type": "application/json", "Authorization": Token auth_token}
   - json body> {"otp": "Google Authenticator otp"}
 
+- React app directory is included, if you made changes in react code:
+  - npm run build
+  - replace new build/ with djangoPyOTP/build
