@@ -27,8 +27,7 @@ class GetProvisionURI(APIView):
 
     def get(self, request):
         user_pyotp = PyOTP.objects.get(user=request.user)
-        provision_uri = build_uri(secret=user_pyotp.secret, issuer=user_pyotp.issuer_name, name=user_pyotp.name,
-                                  digits=user_pyotp.digits, period=user_pyotp.interval)
+        provision_uri = build_uri(secret=user_pyotp.secret, issuer=user_pyotp.issuer_name, name=user_pyotp.name)
         return Response({"provision_uri": provision_uri})
 
 
