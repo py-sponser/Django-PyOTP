@@ -22,6 +22,7 @@
 
 - Using React.js as front-end.
   - Frontend only requests provision url from backend to embed with QRCode which Google Authenticator need to scan.
+    - http://127.0.0.1:8000/mfa/get-provision-uri/ 
   - Frontend shows only the QRCode.
 
 - You can read MFA views, urls, and models code in mfa_otp directory (app).
